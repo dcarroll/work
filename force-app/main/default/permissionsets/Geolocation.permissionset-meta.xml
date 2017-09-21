@@ -57,7 +57,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Locatoin__c</field>
+        <field>Account.Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
