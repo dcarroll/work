@@ -11,7 +11,7 @@ read x
 force rest post tooling/sobjects/CustomField assets/fieldCreate.json
 echo "Will import metadata using Force CLI..."
 read x
-force import -d md.1
+force import -d md
 read x
 sfdx force:data:soql:query -q "SELECT Id FROM SourceMember" --json -t > memberquery.json
 echo "Hackaround source tracking bug..."
