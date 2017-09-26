@@ -1,0 +1,231 @@
+[
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app",
+        {
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1506462818000,
+            "changeTime": 1506462818000,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main",
+        {
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1506468788000,
+            "changeTime": 1506468788000,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "9e470d5993dca6deb0409e6b120d85f84696910d"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 68,
+            "modifiedTime": 1506468788000,
+            "changeTime": 1506468788000,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work",
+        {
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work",
+            "isDirectory": true,
+            "size": 680,
+            "modifiedTime": 1506468569000,
+            "changeTime": 1506468569000,
+            "contentHash": "343c45a454946cde4aa42c652d69126acbc34774",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9708,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "e85a88e4c79b0e49351c7fe72875a0a96c157ce7"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9756,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "94142c6ea19df359d8f2398924816a5498afc02e"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9708,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "a6fc0c32caef3a798eea4f544a2000fc429aeb77"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9756,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "0ac2903745d3402a3279ba45b246c5286914d16d"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4211,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "a7b8d3fb63916aeee98b823c382afcb9cdd5590f"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4551,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "147dfae578ce2f64b8651d39c8d8b418f6e0995b"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4215,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "35e2e432454f1c245d7a9225e958294a0e487776"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 17011,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "7b540fe5e24e1deb235d56627cfd0f632039ec3d"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/permissionsets/Geolocation.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/permissionsets/Geolocation.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 366,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "22561a9d689e7899abdd423d8b7cfcab331df915"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 204,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+        }
+    ],
+    [
+        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1506468875000,
+            "changeTime": 1506468875000,
+            "contentHash": "3997b26d8a7f6692d5d741c4ac6d7985687d23ba"
+        }
+    ]
+]

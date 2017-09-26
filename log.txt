@@ -1,0 +1,82 @@
+Deleting old scratch org...
+Will create org... [2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GSuccessfully created scratch org: 00D9A0000000TgcUAE, username: test-nhhyysbhjne2@dcarroll_company.net
+
+Register user with Force CLI... Determining default user...
+Getting auth for test-nhhyysbhjne2@dcarroll_company.net (GeoAppScratch)...
+Now using DX credentials for test-nhhyysbhjne2@dcarroll_company.net (GeoAppScratch)
+
+<Force CLI> Will create custom field... POST tooling/sobjects/CustomField
+{"id":"00N9A000000IQ4SUAW","success":true,"errors":[],"warnings":[]}
+
+<Force CLI> Will import metadata using Force CLI... Not done yet: InProgress  Will check again in five seconds.
+Not done yet: InProgress  Will check again in five seconds.
+
+Failures - 0
+
+Successes - 43
+Imported from /Users/dcarroll/Documents/Projects/DXBeta/work2/work/md
+
+Execute source tracking work around... <Force CLI> Patching the source member objects...
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0AEWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0AJWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0AOWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0AQWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0APWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0ARWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0AKWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0ALWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0AMWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0ANWA0
+Patch command succeeded....
+
+PATCH tooling/sobjects/SourceMember/0MZ9A000000E0ASWA0
+Patch command succeeded....
+
+Checking source status...
+[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GSTATE       FULL NAME                           TYPE           PROJECT PATH
+──────────  ──────────────────────────────────  ─────────────  ────────────
+Remote Add  Admin                               Profile
+Remote Add  Custom: Sales Profile               Profile
+Remote Add  Custom: Marketing Profile           Profile
+Remote Add  Custom: Support Profile             Profile
+Remote Add  Account-Account (Marketing) Layout  Layout
+Remote Add  Account-Account (Sales) Layout      Layout
+Remote Add  Account-Account (Support) Layout    Layout
+Remote Add  Account-Account Layout              Layout
+Remote Add  Geolocation                         PermissionSet
+Assigning permset...
+Permission Set successfully assigned
+Pulling down source imported with Force CLI...
+[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GSTATE  FULL NAME                               TYPE           PROJECT PATH
+─────  ──────────────────────────────────────  ─────────────  ─────────────────────────────────────────────────────────────────────────────────────
+Add    Account-Account Layout                  Layout         force-app/main/default/layouts/Account-Account Layout.layout-meta.xml
+Add    Account-Account %28Support%29 Layout    Layout         force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml
+Add    Account-Account %28Sales%29 Layout      Layout         force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml
+Add    Account-Account %28Marketing%29 Layout  Layout         force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml
+Add    Custom%3A Sales Profile                 Profile        force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml
+Add    Custom%3A Support Profile               Profile        force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml
+Add    Custom%3A Marketing Profile             Profile        force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml
+Add    Admin                                   Profile        force-app/main/default/profiles/Admin.profile-meta.xml
+Add    Geolocation                             PermissionSet  force-app/main/default/permissionsets/Geolocation.permissionset-meta.xml
+Initializing git repo...
+Reinitialized existing Git repository in /Users/dcarroll/Documents/Projects/DXBeta/work2/work/.git/
+Add remote orgin to developerforce/th-smoke-test
+Adding local changes to git...

@@ -1,8 +1,13 @@
 #!/bin/bash
+noprompt=$1
 
 prompt() {
-	printf "$1 " && read
+	printf "$1 "
+    if [ -z "$noprompt" ]; then
+        read
+    fi
 }
+
 rm -rf data
 rm -rf force-app/main/default
 mkdir force-app/main/default
@@ -64,17 +69,17 @@ mkdir data
 echo "Running tree export command..."
 sfdx force:data:tree:export -q "SELECT Name, Location__Latitude__s, Location__Longitude__s FROM Account WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL" -d ./data
 
-prompt "Running tree import command..."
+echo && prompt "Running tree import command..."
 sfdx force:data:tree:import --sobjecttreefiles data/Account.json
 
-prompt "Creating Apex AccountController for lightning component..."
+echo && prompt "Creating Apex AccountController for lightning component..."
 sfdx force:apex:class:create -n AccountController -d force-app/main/default/classes
 cat assets/templates/AccountController.cls > force-app/main/default/classes/AccountController.cls
 
 prompt "Pushing Apex AccountController to org..."
 sfdx force:source:push
 
-prompt "Creating AccountLocator component..."
+echo && prompt "Creating AccountLocator component..."
 sfdx force:lightning:component:create -n AccountLocator -d force-app/main/default/aura
 
 cat assets/templates/AccountLocator.cmp > force-app/main/default/aura/AccountLocator/AccountLocator.cmp
@@ -90,7 +95,7 @@ force rest post tooling/sobjects/CustomTab  assets/customTab.json
 echo "Pulling the new Tab to local space..."
 sfdx force:source:pull
 
-prompt "Creating AccountListItem lightning component..."
+echo && prompt "Creating AccountListItem lightning component..."
 sfdx force:lightning:component:create -n AccountListItem -d force-app/main/default/aura
 
 cat assets/templates/AccountListItem.cmp > force-app/main/default/aura/AccountListItem/AccountListItem.cmp
