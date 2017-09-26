@@ -4,23 +4,26 @@ prompt() {
 	printf "$1 " && read
 }
 rm -rf data
+rm -rf force-app/main/default
+mkdir force-app/main/default
+mkdir force-app/main/default/aura
 
 printf "Deleting old scratch org..."
 sfdx force:org:delete -u GeoAppScratch -p
 
-prompt 'Will create org...'
+echo && prompt 'Will create org...'
 sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch
 
-prompt "Register user with Force CLI..."
+echo && prompt "Register user with Force CLI..."
 force usedxauth
 
-prompt "<Force CLI> Will create custom field..."
+echo && prompt "<Force CLI> Will create custom field..."
 force rest post tooling/sobjects/CustomField assets/fieldCreate.json
 
-prompt "<Force CLI> Will import metadata using Force CLI..."
+echo && prompt "<Force CLI> Will import metadata using Force CLI..."
 force import -d md
 
-prompt "Execute source tracking work around..."
+echo && prompt "Execute source tracking work around..."
 sfdx force:data:soql:query -q "SELECT Id FROM SourceMember" --json -t > memberquery.json
 echo "<Force CLI> Patching the source member objects..."
 for row in $(cat memberquery.json | jq .result.records[].Id); do

@@ -3,7 +3,7 @@
       "auraComponent" : "AccountLocator",
       "description" : "Created by Lightning App Builder",
       "label" : "Account Locator",
-      "mobileReady" : true,
+      "mobileReady" : false,
       "motif" : "Custom99: CRT TV"
     },
     "FullName": "Account_Locator"
