@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <label>Location</label>
     <required>false</required>
-    <scale>8</scale>
+    <scale>7</scale>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Location</type>
 </CustomField>

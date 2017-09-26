@@ -1,0 +1,11 @@
+{
+  "Metadata" : {
+    "displayLocationInDecimal" : true,
+    "externalId" : false,
+    "label" : "Location",
+    "required" : false,
+    "scale" : 8,
+    "type" : "Location"
+  },
+  "FullName" : "Account.Location__c"
+}

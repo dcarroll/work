@@ -1,0 +1,10 @@
+{
+    "Metadata" : {
+      "auraComponent" : "AccountLocator",
+      "description" : "Created by Lightning App Builder",
+      "label" : "Account Locator",
+      "mobileReady" : true,
+      "motif" : "Custom99: CRT TV"
+    },
+    "FullName": "Account_Locator"
+  }
