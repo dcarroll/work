@@ -90,7 +90,10 @@ echo "Pushing lightning sources to org..."
 sfdx force:source:push
 
 echo "<Force CLI> Creating custom tab for the lightning component..."
-force rest post tooling/sobjects/CustomTab  assets/customTab.json
+force rest post tooling/sobjects/CustomTab  assets/customtap/customTab.json
+
+echo "<Force CLI> Push updated profile for Admin to see new tab..."
+force push -f assets/templates/customtab/profiles/Admin.profile
 
 echo "Pulling the new Tab to local space..."
 sfdx force:source:pull

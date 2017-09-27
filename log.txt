@@ -80,3 +80,88 @@ Initializing git repo...
 Reinitialized existing Git repository in /Users/dcarroll/Documents/Projects/DXBeta/work2/work/.git/
 Add remote orgin to developerforce/th-smoke-test
 Adding local changes to git...
+Commiting changes to git...
+[master 8fcd8a9] Add custom field and permset
+ 14 files changed, 324 insertions(+), 487 deletions(-)
+ delete mode 100644 .sfdx/orgs/test-admenvocq1su@dcarroll_company.net/sourcePathInfos.json
+ rename .sfdx/orgs/{test-admenvocq1su@dcarroll_company.net => test-nhhyysbhjne2@dcarroll_company.net}/maxrevision.json (100%)
+ rename .sfdx/orgs/{test-admenvocq1su@dcarroll_company.net => test-nhhyysbhjne2@dcarroll_company.net}/metadataTypeInfos.json (100%)
+ create mode 100644 .sfdx/orgs/test-nhhyysbhjne2@dcarroll_company.net/sourcePathInfos.json
+ create mode 100644 log.txt
+ rewrite memberquery.json (66%)
+ delete mode 100644 no-force-app/main/default/applications/Trailhead.app-meta.xml
+ delete mode 100644 no-force-app/main/default/applications/standard__Platform.app-meta.xml
+ delete mode 100644 no-force-app/main/default/flexipages/Trailhead_UtilityBar.flexipage-meta.xml
+ delete mode 100644 no-force-app/main/default/permissionsets/AccountLocator.permissionset-meta.xml
+ delete mode 100644 no-force-app/main/default/tabs/New_Locator.tab-meta.xml
+Pushing changes to remote...
+<Force CLI> Create an Account with location infomation...
+Record created: 0019A0000033n9VQAQ
+<Force CLI> Create an Account with location infomation...
+Record created: 0019A0000033n9aQAA
+<Force CLI> Create an Account with location infomation...
+Record created: 0019A0000033n9fQAA
+Creating data directory locally...
+Running tree export command...
+Wrote 3 records to data/Account.json
+
+Running tree import command... === Import Results
+REFERENCE ID  TYPE     ID
+────────────  ───────  ──────────────────
+AccountRef1   Account  0019A0000033n9pQAA
+AccountRef2   Account  0019A0000033n9qQAA
+AccountRef3   Account  0019A0000033n9rQAA
+
+Creating Apex AccountController for lightning component... target dir = /Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/classes
+   create AccountController.cls
+   create AccountController.cls-meta.xml
+
+Pushing Apex AccountController to org... [2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GSTATE  FULL NAME          TYPE       PROJECT PATH
+─────  ─────────────────  ─────────  ─────────────────────────────────────────────────────────────
+Add    AccountController  ApexClass  force-app/main/default/classes/AccountController.cls-meta.xml
+Add    AccountController  ApexClass  force-app/main/default/classes/AccountController.cls
+
+Creating AccountLocator component... target dir = /Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura
+   create AccountLocator/AccountLocator.cmp
+   create AccountLocator/AccountLocator.cmp-meta.xml
+   create AccountLocator/AccountLocatorController.js
+   create AccountLocator/AccountLocatorHelper.js
+   create AccountLocator/AccountLocator.css
+   create AccountLocator/AccountLocatorRenderer.js
+
+Pushing lightning sources to org...
+[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GSTATE  FULL NAME       TYPE                  PROJECT PATH
+─────  ──────────────  ────────────────────  ──────────────────────────────────────────
+Add    AccountLocator  AuraDefinitionBundle  force-app/main/default/aura/AccountLocator
+<Force CLI> Creating custom tab for the lightning component...
+POST tooling/sobjects/CustomTab
+{"id":"01r9A0000000G9cQAE","success":true,"errors":[],"warnings":[]}
+Pulling the new Tab to local space...
+[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GSTATE  FULL NAME        TYPE       PROJECT PATH
+─────  ───────────────  ─────────  ────────────────────────────────────────────────────────
+Add    Account_Locator  CustomTab  force-app/main/default/tabs/Account_Locator.tab-meta.xml
+
+Creating AccountListItem lightning component... target dir = /Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura
+   create AccountListItem/AccountListItem.cmp
+   create AccountListItem/AccountListItem.cmp-meta.xml
+   create AccountListItem/AccountListItemController.js
+   create AccountListItem/AccountListItemHelper.js
+   create AccountListItem/AccountListItem.css
+   create AccountListItem/AccountListItemRenderer.js
+
+Creating AccountList lightning component... target dir = /Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura
+   create AccountList/AccountList.cmp
+   create AccountList/AccountList.cmp-meta.xml
+   create AccountList/AccountListController.js
+   create AccountList/AccountListHelper.js
+   create AccountList/AccountList.css
+   create AccountList/AccountListRenderer.js
+
+Pushing new lightning components... [2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GProcessing... -[2K[1GProcessing... \[2K[1GProcessing... |[2K[1GProcessing... /[2K[1GSTATE    FULL NAME        TYPE                  PROJECT PATH
+───────  ───────────────  ────────────────────  ───────────────────────────────────────────
+Add      AccountList      AuraDefinitionBundle  force-app/main/default/aura/AccountList
+Add      AccountListItem  AuraDefinitionBundle  force-app/main/default/aura/AccountListItem
+Changed  AccountLocator   AuraDefinitionBundle  force-app/main/default/aura/AccountLocator
+Opening scratch org...
+Access org 00D9A0000000TgcUAE as user test-nhhyysbhjne2@dcarroll_company.net with the following URL: https://enterprise-connect-7308-dev-ed.cs46.my.salesforce.com/secur/frontdoor.jsp?sid=00D9A0000000Tgc!ARYAQK5uvJP.lOHJr6.fU2AsK4gsdz4dPOte6CZPzGlFGUg_KdJUSCGROMGYDKlA0zbeD6koUwSnLnY48_6AgNqxZhtL5hAd
+<end>
