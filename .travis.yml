@@ -10,7 +10,7 @@ before_install:
 - wget -qO- $URL | tar xJf -
 - ./sfdx/install
 - export PATH=./sfdx/$(pwd):$PATH
-- export PATH=$(pwd)/assets:$PATH
+- export PATH=$(pwd)/assets/force:$PATH
 - sfdx plugins:install salesforcedx@41.2.0
 #- sfdx update alpha
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
