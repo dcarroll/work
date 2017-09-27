@@ -11,8 +11,8 @@ before_install:
 - ./sfdx/install
 - export PATH=./sfdx/$(pwd):$PATH
 - export PATH=$(pwd)/assets:$PATH
-#- sfdx plugins:install salesforcedx
-- sfdx update alpha
+- sfdx plugins:install salesforcedx@41.2.0
+#- sfdx update alpha
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
   --username $USERNAME --setdefaultdevhubusername -a HubOrg
 script:
