@@ -32,7 +32,7 @@ echo && prompt "Execute source tracking work around..."
 sfdx force:data:soql:query -q "SELECT Id FROM SourceMember" --json -t > memberquery.json
 echo "<Force CLI> Patching the source member objects..."
 for row in $(cat memberquery.json | jq .result.records[].Id); do
-   eval 'force rest patch "tooling/sobjects/SourceMember/'$( echo $row | tr -d '"' )'"' assets/smupdate.json
+   eval './assets/force rest patch "tooling/sobjects/SourceMember/'$( echo $row | tr -d '"' )'"' assets/smupdate.json
    echo ""
 done   
 

@@ -1,7 +1,6 @@
 sudo: true
 env:
 - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
-- FURL=https://github.com/heroku/force/releases/download/v0.22.78/force_darwin_amd64
 before_install:
 - openssl aes-256-cbc -K $encrypted_575a7f776184_key -iv $encrypted_575a7f776184_iv
   -in assets/server.key.enc -out assets/server.key -d
@@ -11,7 +10,7 @@ before_install:
 - wget -qO- $URL | tar xJf -
 - ./sfdx/install
 - export PATH=./sfdx/$(pwd):$PATH
-#- wget -qO- $FURL
+#- wget -qO- https://github.com/heroku/force/releases/download/v0.22.78/force_darwin_amd64
 - sfdx plugins:install salesforcedx@41.2.0
 #- sfdx update alpha
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
