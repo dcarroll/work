@@ -52,6 +52,7 @@ git remote add origin https://github.com/developerforce/th-smoke-test
 
 echo "Adding local changes to git..."
 git add .
+git remove sfdx
 echo "Commiting changes to git..."
 git commit -m 'Add custom field and permset'
 echo "Pushing changes to remote..."
