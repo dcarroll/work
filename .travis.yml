@@ -15,8 +15,9 @@ before_install:
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
   --username $USERNAME --setdefaultdevhubusername -a HubOrg
 script:
+- ./testing.sh
 # - sfdx force:org:open -u HubOrg
-- sfdx force:project:create -n geolocation
+# - sfdx force:project:create -n geolocation
 #- cd geolocation
 #- sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch
 #- sfdx force:limits:api:display -u ciorg

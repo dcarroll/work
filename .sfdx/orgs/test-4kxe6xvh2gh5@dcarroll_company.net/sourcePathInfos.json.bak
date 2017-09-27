@@ -32,28 +32,28 @@
     [
         "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default",
             "isDirectory": true,
+            "isMetadataFile": false,
             "size": 272,
             "modifiedTime": 1506471317000,
             "changeTime": 1506471317000,
-            "contentHash": "b753fc0fd0bf8defa005cbd9c1febf9e7716fcea",
-            "isMetadataFile": false,
-            "state": "u"
+            "contentHash": "b753fc0fd0bf8defa005cbd9c1febf9e7716fcea"
         }
     ],
     [
         "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura",
         {
-            "state": "u",
             "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura",
             "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1506471220000,
+            "changeTime": 1506471220000,
+            "contentHash": "4c01eade869b72bbd66cfccee570a524d94497f7",
             "isMetadataFile": false,
-            "size": 170,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "isWorkspace": false,
-            "contentHash": "9c98372a45cf06c7fb95ee4aa450766e3a658e86"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -281,14 +281,14 @@
     [
         "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountLocator/AccountLocator.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountLocator/AccountLocator.cmp",
             "isDirectory": false,
+            "size": 165,
+            "modifiedTime": 1506471220000,
+            "changeTime": 1506471220000,
+            "contentHash": "7443426ece5bc685396dea5b472aa94c874fb670",
             "isMetadataFile": false,
-            "size": 182,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "f0aad58c6510048b7f88251e480b43431d0b9784"
+            "state": "u"
         }
     ],
     [
@@ -359,209 +359,27 @@
     [
         "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/tabs/Account_Locator.tab-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/tabs/Account_Locator.tab-meta.xml",
             "isDirectory": false,
+            "isMetadataFile": true,
             "size": 334,
             "modifiedTime": 1506471317000,
             "changeTime": 1506471317000,
-            "contentHash": "5f3f9b97318ce9de0e4f87f6346ec51014aac799",
-            "isMetadataFile": true,
-            "state": "u"
+            "contentHash": "5f3f9b97318ce9de0e4f87f6346ec51014aac799"
         }
     ],
     [
         "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/tabs",
         {
+            "state": "u",
             "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/tabs",
             "isDirectory": true,
+            "isMetadataFile": false,
             "size": 102,
             "modifiedTime": 1506471317000,
             "changeTime": 1506471317000,
-            "contentHash": "e07904c1411fc5069c20a25aedc7d6bdcade7b1f",
-            "isMetadataFile": false,
-            "state": "u"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 272,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "9b10fc950c90c6623061197f88c0db00961e1f2f"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 272,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "9fe0106ed0f04a02776eb4dbdb9bb1ee85be87b7"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountList.cmp",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountList.cmp",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 390,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "8b293536a0b5c864a64ad1c17c5f5a6efac9df47"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountList.cmp-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountList.cmp-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 243,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "22ef10b2acb59793801abaf45e483c705bc14c8c"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountList.css",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountList.css",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 111,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "ff97680a451dccf775d504143f673481b13a3300"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountListController.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountListController.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 255,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "852714ef85a9eacf436a155236a97021f5688cef"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountListHelper.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountListHelper.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 45,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountListRenderer.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountList/AccountListRenderer.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 50,
-            "modifiedTime": 1506471321000,
-            "changeTime": 1506471321000,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItem.cmp",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItem.cmp",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 126,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "9b4234419cef0a2a09d36b256ebd60aac8a1a2b2"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItem.cmp-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItem.cmp-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 247,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "696b3214008c0232cc260fded1de3ff036b1a0a0"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItem.css",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItem.css",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 170,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "97aec742d594f26443b71d24ed7ae41e88305ad0"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItemController.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItemController.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 65,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItemHelper.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItemHelper.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 45,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
-        }
-    ],
-    [
-        "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItemRenderer.js",
-        {
-            "state": "u",
-            "sourcePath": "/Users/dcarroll/Documents/Projects/DXBeta/work2/work/force-app/main/default/aura/AccountListItem/AccountListItemRenderer.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 50,
-            "modifiedTime": 1506471319000,
-            "changeTime": 1506471319000,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
+            "contentHash": "e07904c1411fc5069c20a25aedc7d6bdcade7b1f"
         }
     ]
 ]
