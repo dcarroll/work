@@ -20,13 +20,13 @@ echo && prompt 'Will create org...'
 sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch
 
 echo && prompt "Register user with Force CLI..."
-force usedxauth
+./assets/force usedxauth
 
 echo && prompt "<Force CLI> Will create custom field..."
-force rest post tooling/sobjects/CustomField assets/fieldCreate.json
+./assets/force rest post tooling/sobjects/CustomField assets/fieldCreate.json
 
 echo && prompt "<Force CLI> Will import metadata using Force CLI..."
-force import -d md
+./assets/force import -d md
 
 echo && prompt "Execute source tracking work around..."
 sfdx force:data:soql:query -q "SELECT Id FROM SourceMember" --json -t > memberquery.json
@@ -58,11 +58,11 @@ echo "Pushing changes to remote..."
 #git push origin master
 
 echo "<Force CLI> Create an Account with location infomation..."
-force record create Account Name:"Marriott Marquis" Location__Longitude__s:-122.403405 Location__Latitude__s:37.785143
+./assets/force record create Account Name:"Marriott Marquis" Location__Longitude__s:-122.403405 Location__Latitude__s:37.785143
 echo "<Force CLI> Create an Account with location infomation..."
-force record create Account Name:"Hilton Union Square" Location__Longitude__s:-122.410137 Location__Latitude__s:37.786164
+./assets/force record create Account Name:"Hilton Union Square" Location__Longitude__s:-122.410137 Location__Latitude__s:37.786164
 echo "<Force CLI> Create an Account with location infomation..."
-force record create Account Name:"Hyatt" Location__Longitude__s:-122.396311 Location__Latitude__s:37.794157
+./assets/force record create Account Name:"Hyatt" Location__Longitude__s:-122.396311 Location__Latitude__s:37.794157
 
 echo "Creating data directory locally..."
 mkdir data
@@ -90,9 +90,10 @@ echo "Pushing lightning sources to org..."
 sfdx force:source:push
 
 echo "<Force CLI> Creating custom tab for the lightning component..."
-force rest post tooling/sobjects/CustomTab  assets/templates/customtab/customTab.json
+./assets/force rest post tooling/sobjects/CustomTab  assets/templates/customtab/customTab.json
 
 echo "<Force CLI> Push updated profile for Admin to see new tab..."
+./assets/./assets/force rest post tooling/sobjects/CustomTab  assets/templates/customtab/customTab.json
 force push -f assets/templates/customtab/profiles/Admin.profile
 
 echo "Pulling the new Tab to local space..."
