@@ -42,7 +42,7 @@ sfdx force:source:status
 echo "Assigning permset..."
 sfdx force:user:permset:assign -n Geolocation
 
-echo "Pulling down source imported with Force CLI..."
+echo && echo "Pulling down source imported with Force CLI..."
 sfdx force:source:pull
 
 echo "Initializing git repo..."
@@ -90,7 +90,7 @@ echo "Pushing lightning sources to org..."
 sfdx force:source:push
 
 echo "<Force CLI> Creating custom tab for the lightning component..."
-force rest post tooling/sobjects/CustomTab  assets/customtap/customTab.json
+force rest post tooling/sobjects/CustomTab  assets/templates/customtab/customTab.json
 
 echo "<Force CLI> Push updated profile for Admin to see new tab..."
 force push -f assets/templates/customtab/profiles/Admin.profile
