@@ -52,7 +52,6 @@ git remote add origin https://github.com/developerforce/th-smoke-test
 
 echo "Adding local changes to git..."
 git add .
-git rm sfdx
 echo "Commiting changes to git..."
 git commit -m 'Add custom field and permset'
 echo "Pushing changes to remote..."
@@ -94,7 +93,6 @@ echo "<Force CLI> Creating custom tab for the lightning component..."
 ./assets/force rest post tooling/sobjects/CustomTab  assets/templates/customtab/customTab.json
 
 echo "<Force CLI> Push updated profile for Admin to see new tab..."
-./assets/./assets/force rest post tooling/sobjects/CustomTab  assets/templates/customtab/customTab.json
 force push -f assets/templates/customtab/profiles/Admin.profile
 
 echo "Pulling the new Tab to local space..."
