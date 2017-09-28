@@ -20,7 +20,7 @@ forceSetup() {
     ./assets/force rest post tooling/sobjects/CustomField assets/fieldCreate.json
 
     echo && prompt "<Force CLI> Will import metadata using Force CLI..."
-    ./assets/force import -d md
+    ./assets/force import -d assets/md
 
     echo && prompt "Execute source tracking work around..."
     sfdx force:data:soql:query -q "SELECT Id FROM SourceMember" --json -t > memberquery.json
