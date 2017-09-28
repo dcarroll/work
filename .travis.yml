@@ -33,7 +33,7 @@ script:
 - sfdx force:user:permset:assign -n Geolocation
 - sfdx force:source:pull
 - git init
-- git remote add origin https://github.com/developerforce/th-smoke-test
+#- git remote add origin https://github.com/developerforce/th-smoke-test
 - git add .
 - git commit -m 'Add custom field and permset'
 #- git push origin master
