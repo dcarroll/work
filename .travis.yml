@@ -14,6 +14,10 @@ before_install:
 #- sfdx plugins:install salesforcedx@41.2.0
 - sfdx update
 - sfdx update alpha
+- sfdx plugins --core
+- sfdx --version
+- echo $USERNAME
+- echo $CONSUMERKEY
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
   --username $USERNAME --setdefaultdevhubusername -a HubOrg
 script:
