@@ -10,6 +10,7 @@ reset() {
     mkdir force-app/main/default/aura
     printf "Deleting old scratch org..."
     #sfdx force:org:delete -u GeoAppScratch -p
+    return
 }
 
 forceSetup() {
@@ -28,7 +29,8 @@ forceSetup() {
     for row in $(cat memberquery.json | jq .result.records[].Id); do
     eval './assets/force rest patch "tooling/sobjects/SourceMember/'$( echo $row | tr -d '"' )'"' assets/smupdate.json
     echo ""
-    done   
+    done
+    return
 }
 
 forceAddAccounts() {
@@ -43,6 +45,7 @@ forceAddAccounts() {
 getAccountLocatorContent() {
     cat assets/templates/AccountLocator.cmp > force-app/main/default/aura/AccountLocator/AccountLocator.cmp
     cat assets/templates/AccountLocator.css > force-app/main/default/aura/AccountLocator/AccountLocator.css
+    return
 }
 
 forceCreateTab() {
@@ -51,6 +54,7 @@ forceCreateTab() {
 
     echo "<Force CLI> Push updated profile for Admin to see new tab..."
     ./assets/force push -f assets/templates/customtab/profiles/Admin.profile
+    return
 }
 
 addAccountListContent() {
@@ -60,9 +64,11 @@ addAccountListContent() {
     cat assets/templates/AccountList.css > force-app/main/default/aura/AccountList/AccountList.css
     cat assets/templates/AccountListController.js > force-app/main/default/aura/AccountList/AccountListController.js
     cat assets/templates/AccountLocator2.cmp > force-app/main/default/aura/AccountLocator/AccountLocator.cmp
+    return
 }
 
 cleanUpAfterForce() {
     rm -rf metadata
-    rm -rf src 
+    rm -rf src
+    return
 }

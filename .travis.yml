@@ -60,6 +60,8 @@ script:
 - sfdx force:lightning:component:create -n AccountList -d force-app/main/default/aura
 - addAccountListContent
 - sfdx force:source:push
-- sfdx force:org:open
+- sfdx force:user:password:generate
+- sfdx force:user:display
+#- sfdx force:org:open
 - cleanUpAfterForce
 - echo "<end>"
