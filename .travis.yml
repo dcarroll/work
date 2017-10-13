@@ -17,6 +17,7 @@ before_install:
 #- sfdx update alpha
 #- sfdx plugins --core
 - sfdx --version
+- sfdx plugins
 - echo $USERNAME
 - echo $CONSUMERKEY
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
