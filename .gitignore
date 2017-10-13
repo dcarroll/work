@@ -2,5 +2,5 @@ sfdx/
 md.zip
 .sfdx
 memberquery.json
-
+assets/server.key
 .sfdx/tools/apex.db
