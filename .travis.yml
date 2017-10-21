@@ -13,10 +13,8 @@ before_install:
 - sfdx force -h
 #- wget -qO- https://github.com/heroku/force/releases/download/v0.22.78/force_darwin_amd64
 #- sfdx plugins:install salesforcedx@41.2.0
-#- sfdx update alpha
-#- sfdx plugins --core
 - sfdx --version
-- sfdx plugins
+- sfdx plugins --core
 - echo $USERNAME
 - echo $CONSUMERKEY
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
