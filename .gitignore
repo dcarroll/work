@@ -4,3 +4,5 @@ md.zip
 memberquery.json
 assets/server.key
 .sfdx/tools/apex.db
+local.sh
+certs/

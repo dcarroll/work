@@ -1,7 +1,11 @@
 #!/bin/bash
 source testing-local.sh
+export CONSUMERKEY="3MVG9SemV5D80oBc0DJyJvvUi4qo2y6INTmVdnwtPE4eORq9IwR3fHCWXna2yjDPcHXu4F0j5ZIhTgy13H87G"
+export USERNAME="dcarroll-vnv9@force.com"
 
 reset
+sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key  --username $USERNAME --setdefaultdevhubusername -a HubOrg
+
 sfdx force:org:create -s -f config/project-scratch-def.json -a GeoAppScratch
 forceSetup
 sfdx force:source:status
